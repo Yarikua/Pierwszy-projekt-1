@@ -1,0 +1,11 @@
+#topwiew{
+    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    height: 50vh;
+/*    text-align: center;*/
+    min-height: 500px;
+    padding-top: -50px;
+}
+#incloud{
+    margin-top: 30vh;
+}
