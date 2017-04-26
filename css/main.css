@@ -1,5 +1,9 @@
 body{
-    font-family: DroidSerif;
+    font-family: 'Droid Serif', serif;
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif;
+*/
     color: #333333;
 }
 
@@ -33,6 +37,9 @@ h1{
     text-transform: uppercase;
 }
 /*SSEERRWWIICCEESS*/
+#services{
+    padding-top: 50px;
+}
 #services i{
     color: white;
     margin-top: 28px;
