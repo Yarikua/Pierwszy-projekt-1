@@ -11,6 +11,7 @@ h2{
     text-transform: uppercase;
 }
 
+
 /*HHEEAADDEERR*/
 #topwiew{
     background-image: url(../img/header/pictures_on_the_wall.jpg);
@@ -40,6 +41,9 @@ h1{
     border-radius: 5px;
     text-transform: uppercase;
 }
+
+
+
 /*SSEERRWWIICCEESS*/
 #services{
     padding-top: 50px;
@@ -58,6 +62,8 @@ h1{
 #icons{
     margin: 70px;
 }
+
+
 /*PPPOOORRTTTFFOOLLIIOO*/
 #portfolio{
     padding-bottom: 90px;
@@ -76,3 +82,21 @@ img{
     background-size: contain;
     height: 250px;
 }
+
+.proba{
+    background-image: url(../img/team/woman-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  350px;
+    border-radius: 300px
+}
+
+/*TTTEEEAAAMMM*/
+/*
+#team1{
+    background-image: url(../img/team/man-1.jpg);
+    background-size: contain;
+    width: 300px;
+    background-repeat: no-repeat;
+    
+}*/
