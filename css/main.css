@@ -7,6 +7,10 @@ body{
     color: #333333;
 }
 
+h2{
+    text-transform: uppercase;
+}
+
 /*HHEEAADDEERR*/
 #topwiew{
     background-image: url(../img/header/pictures_on_the_wall.jpg);
@@ -54,5 +58,21 @@ h1{
 #icons{
     margin: 70px;
 }
-
-
+/*PPPOOORRTTTFFOOLLIIOO*/
+#portfolio{
+    padding-bottom: 90px;
+    padding-top: 80px;
+    background-color: #f7f7f7;
+}
+.pojedyncze{
+    background-color: white;
+    margin: 14px auto;
+}
+.pojedyncze p{
+    padding-bottom: 16px;
+}
+img{
+    width: 100%;
+    background-size: contain;
+    height: 250px;
+}
