@@ -10,13 +10,17 @@ body{
 h2{
     text-transform: uppercase;
 }
+.marginesy{
+    padding-bottom: 80px;
+    padding-top: 80px;    
+}
 
 
 /*HHEEAADDEERR*/
 #topwiew{
     background-image: url(../img/header/pictures_on_the_wall.jpg);
     background-size: cover;
-    height: 50vh;
+    height: 85vh;
     min-height: 500px;
     padding-top: -50px;
 }
@@ -45,9 +49,6 @@ h1{
 
 
 /*SSEERRWWIICCEESS*/
-#services{
-    padding-top: 50px;
-}
 #services i{
     color: white;
     margin-top: 28px;
@@ -64,10 +65,9 @@ h1{
 }
 
 
+
 /*PPPOOORRTTTFFOOLLIIOO*/
 #portfolio{
-    padding-bottom: 90px;
-    padding-top: 80px;
     background-color: #f7f7f7;
 }
 .pojedyncze{
@@ -77,26 +77,28 @@ h1{
 .pojedyncze p{
     padding-bottom: 16px;
 }
-img{
+
+#potr-in img{
     width: 100%;
     background-size: contain;
     height: 250px;
 }
 
-.proba{
-    background-image: url(../img/team/woman-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:  350px;
-    border-radius: 300px
-}
+
 
 /*TTTEEEAAAMMM*/
-/*
-#team1{
-    background-image: url(../img/team/man-1.jpg);
-    background-size: contain;
-    width: 300px;
-    background-repeat: no-repeat;
+#team img{
+    border-radius: 300px;
+}
+#team-text{
+    margin-top: 45px; 
+}
+#team i{
+    margin: 8px;
+    margin-bottom: 45px;
     
-}*/
+}
+.iconteam i:hover{
+    color:  skyblue;
+    transition: 1s;
+}
