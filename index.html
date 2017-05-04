@@ -10,7 +10,7 @@
 </head>
 <body>
 <!--NAVBAR-->
-<nav class="navbar-default" >
+<nav class="navbar navbar-default" >
     <div class="container-fluid text-center" id="menu">
         <div class="navbar-header" >
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -35,9 +35,9 @@
 <header class="container-fluid text-center" id="topwiew">
     <div class="row" id="incloud">
         <div class="col-lg-12">
-            <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
+            <h2 class="text-uppercase">Lorem ipsum dolor sit amet, consectetur.</h2>
             <h1><strong>You are the best developer</strong></h1>
-            <input id="przycisk" type="submit" value="wiew more">
+            <button type="button" class="btn btn-info btn-lg text-uppercase">view more</button>
         </div>
     </div>
 </header>   
@@ -45,26 +45,26 @@
 <div class="container" id="services">
     <div class="marginesy"> 
         <div class="text-center">  
-            <h2><strong>services</strong></h2>
+            <h2 class="text-uppercase"><strong>services</strong></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, obcaecati!</p>
         </div>                  
         <div class="row" id="icons">
             <div class="col-md-6 col-lg-4 text-center">
-                <div id="backicon">
+                <div class="backicon">
                     <i class="fa fa-briefcase fa-3x" aria-hidden="true"></i>
                 </div>
                 <h3><strong>Web Development</strong></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum tempore a saepe, inventore repudiandae laborum.</p>
             </div>
             <div class="col-md-6 col-lg-4 text-center">
-                <div id="backicon">
+                <div class="backicon">
                     <i class="fa fa-cloud-download fa-3x" aria-hidden="true"></i>
                 </div>
                 <h3><strong>E-Commerce</strong></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum tempore a saepe, inventore repudiandae laborum.</p>
             </div>    
             <div class="col-md-6 col-lg-4 text-center">
-                <div id="backicon">
+                <div class="backicon">
                     <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
                 </div>
                 <h3><strong>Web Design</strong></h3>
@@ -77,7 +77,7 @@
 <div class="container-fluid" id="portfolio">
     <div class="marginesy">   
         <div class="text-center">  
-            <h2><strong>portfolio</strong></h2>
+            <h2 class="text-uppercase"><strong>portfolio</strong></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, obcaecati!</p>
         </div>
     <div class="container" id="potr-in">                     
@@ -132,15 +132,13 @@
 <div class="container" id="team">
     <div class="marginesy">       
         <div class="text-center">  
-            <h2><strong>meet our team</strong></h2>
+            <h2 class="text-uppercase"><strong>meet our team</strong></h2>
             <p>Adipisicing elit. Hic, obcaecati!</p>
         </div>                  
         <div class="row" id="team-text" >
             <div class="col-lg-4 text-center">
                <div id="Mechanik">
-                    <div class="fotka1" id="parametr">
-                        <img src="img/team/man-1.jpg" width=200px alt="zdjecie faceta">
-                    </div>
+                    <img class="img-circle" src="img/team/man-1.jpg" width="200" alt="zdjecie faceta">
                     <h3><strong>Andzej Duda</strong></h3>
                     <p>Mechanik</p>
                     <div class="iconteam">
@@ -152,9 +150,7 @@
             </div>
             <div class="col-lg-4 text-center">
                <div id="babka">
-                    <div class="fotka2" id="parametr">
-                        <img src="img/team/woman-1.jpg" width=200px alt="">
-                    </div>
+                    <img class="img-circle" src="img/team/woman-1.jpg" width="200" alt="zdjęcie babki">
                     <h3><strong>Beata Szydlo</strong></h3>
                     <p>Sprzątaczka</p>
                     <div class="iconteam">
@@ -166,9 +162,7 @@
             </div>    
             <div class="col-lg-4 text-center">
                 <div id="dziadek">
-                    <div class="fotka2" id="parametr">
-                        <img src="img/team/man-2.jpg" width=200px alt="">
-                    </div>
+                    <img class="img-circle" src="img/team/man-2.jpg" width="200" alt="zdjecie dziadka">
                     <h3><strong>Prosto Kaczynski</strong></h3>
                     <p>Dziadek</p>
                     <div class="iconteam">
@@ -184,8 +178,46 @@
         </div>
     </div>         
 </div>  
-    
-    
+<!--CONTACT-->
+<div class="container-fluid" id="contact">
+    <div class="marginesy">
+        <div class="row" id="con-hed">
+            <h2 class="text-uppercase"><strong>contact us</strong></h2>
+            <p>Yotam autem recusandae</p>
+        </div>   
+        <div class="row">
+            <form action="https://formspree.io/mr.yarikua@gmail.com" method="post">  
+               <div class="col-lg-6" id="forma">
+                    <input type="text" name="name" placeholder="YOUR NAME*">
+                    <input type="email" name="email" placeholder="YOUR EMAIL*">
+                    <input type="number" name="number" placeholder="YOUR PHONE*">
+               </div>
+               <div class="col-lg-6" id="textar">
+                    <textarea name="wiadomosc" placeholder="YOUR MESSAGE*"></textarea>          
+               </div>
+            </form>               
+           <div class="col-lg-12">
+               <button type="button" class="btn btn-info btn-lg text-uppercase">send message</button>>
+           </div>
+        </div>                                                      
+    </div>
+</div>   
+<!--FOOOTER    -->
+<div class="container" id="footer">
+    <div class="row">
+        <div class="col-md-4">
+            Copyright<i class="fa fa-copyright" aria-hidden="true"></i> Your Website    
+        </div>
+        <div class="col-md-4">
+            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-chrome fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-product-hunt fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="col-md-4">
+            <p>Privacy Policy   Terms of Use</p>
+        </div>
+    </div>
+</div>   
     
     
     <script src="js/jquery-3.2.0.min.js"></script>

@@ -7,9 +7,6 @@ body{
     color: #333333;
 }
 
-h2{
-    text-transform: uppercase;
-}
 .marginesy{
     padding-bottom: 80px;
     padding-top: 80px;    
@@ -18,11 +15,11 @@ h2{
 
 /*HHEEAADDEERR*/
 #topwiew{
+    margin-top: -20px;
     background-image: url(../img/header/pictures_on_the_wall.jpg);
     background-size: cover;
     height: 85vh;
     min-height: 500px;
-    padding-top: -50px;
 }
 #incloud{
     margin-top: 30vh;
@@ -36,24 +33,13 @@ h1{
     text-transform: uppercase;
     font-size: 6vh;
 }
-#przycisk{
-    background-color: skyblue;
-    font-size: 15px;
-    border 0px;
-    width: 150px;
-    height: 50px;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-
-
 
 /*SSEERRWWIICCEESS*/
 #services i{
     color: white;
     margin-top: 28px;
 }
-#backicon{
+.backicon{
     margin: 0 auto;
     background-color: skyblue;
     width: 100px;
@@ -87,9 +73,7 @@ h1{
 
 
 /*TTTEEEAAAMMM*/
-#team img{
-    border-radius: 300px;
-}
+
 #team-text{
     margin-top: 45px; 
 }
@@ -101,4 +85,49 @@ h1{
 .iconteam i:hover{
     color:  skyblue;
     transition: 1s;
+}
+
+
+
+/*CCCOOOONNNTTTTAAAACCCTTTT*/
+#contact{
+    background-image: url(../img/footer/world-map.jpg);
+    text-align: center;
+}
+#con-hed{
+    color: white;
+}
+#kontakt i{
+    margin: 15px;
+}
+@media (min-width: 1200px){
+#forma {
+    text-align: right;
+    }}
+
+@media (min-width: 1200px){
+#textar {
+    text-align: left;
+    }}    
+
+textarea, input{
+    background-color: white;
+    width: 430px;
+    border: 0;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 7px;
+    height: 46px;
+}
+#textar textarea{
+    height: 166px;
+}
+
+
+
+/*FFFOOOTTTEEERRR*/
+#footer{
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 14px;
 }
