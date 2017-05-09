@@ -1,17 +1,32 @@
-body{
-    font-family: 'Droid Serif', serif;
+/*FFOOONNNTTTYYY*/
+#upper{
+    text-transform: uppercase;
+}
+#incolor:hover{
+    color: skyblue;
+    transition: 0.7s;
+}
+
+h2, button{
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto Slab', serif;
     color: #333333;
 }
-
-h2{
-font-family: Italic;
+h5{
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    color: #777777;
+}
+.white{
+    color: white;
 }
 
+/*MAAARRGINNY*/
 .marginesy{
     padding-bottom: 80px;
-    padding-top: 80px;    
+    padding-top: 58px;    
 }
 
 @media (min-width:10px) and (max-width:768px){
@@ -73,6 +88,7 @@ h1{
 .pojedyncze{
     background-color: white;
     margin: 14px auto;
+    width: 350px;
 }
 .pojedyncze p{
     padding-bottom: 16px;
@@ -82,6 +98,7 @@ h1{
     width: 100%;
     background-size: contain;
     height: 250px;
+    width: 350px;
 }
 
 
@@ -99,7 +116,7 @@ h1{
 }
 .iconteam i:hover{
     color:  #0ed8d6;
-    transition: 1s;
+    transition: 0.8s;
 }
 
 
@@ -128,8 +145,7 @@ h1{
     }}    
 
 textarea, input{
-    background-color: white;
-    width: 430px;
+    width: 450px;
     border: 0;
     border-radius: 5px;
     margin: 7px;
@@ -150,4 +166,5 @@ textarea, input{
 }
 #footer i:hover{
     color: #0ed8d6;
+    transition: 0.8s;
 }
